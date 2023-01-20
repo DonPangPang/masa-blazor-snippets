@@ -1,0 +1,20 @@
+{
+  "name": "masa-blazor-snippets",
+  "displayName": "Masa Blazor Snippets",
+  "description": "Masa Blazor Snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "aspnetcorerazor",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

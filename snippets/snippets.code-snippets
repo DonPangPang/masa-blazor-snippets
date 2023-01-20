@@ -1,0 +1,12 @@
+{
+	"masa button component": {
+		"prefix": "masa-button",
+		"body": ["<MButton></MButton>"],
+		"description": "一个按钮"
+	},
+	"masa chip component": {
+		"prefix": "masa-chip",
+		"body": ["<MChip></MChip>"],
+		"description": "一个按钮"
+	}
+}
