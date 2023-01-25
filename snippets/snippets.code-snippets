@@ -1,12 +1,105 @@
 {
-	"masa button component": {
-		"prefix": "masa-button",
-		"body": ["<MButton></MButton>"],
-		"description": "一个按钮"
+	// Alerts 提示框
+	"masa alert component": {
+		"prefix": "malert",
+		"body": ["<MAlert", "\tType=\"AlertTypes.Success\">", "</MAlert>"],
+		"description": "提示框"
 	},
-	"masa chip component": {
-		"prefix": "masa-chip",
-		"body": ["<MChip></MChip>"],
-		"description": "一个按钮"
+	"masa alert component dense": {
+		"prefix": "malert-dense",
+		"body": [
+			"<MAlert",
+			"\tDense",
+			"\tType=\"AlertTypes.Success\">",
+			"</MAlert>"
+		],
+		"description": "提示框"
+	},
+	"masa alert component prominent": {
+		"prefix": "malert-prominent",
+		"body": [
+			"<MAlert",
+			"\tProminent",
+			"\tType=\"AlertTypes.Success\">",
+			"</MAlert>"
+		],
+		"description": "提示框"
+	},
+	"masa alert component outlined": {
+		"prefix": "malert-outlined",
+		"body": [
+			"<MAlert",
+			"\tOutlined",
+			"\tType=\"AlertTypes.Success\">",
+			"</MAlert>"
+		],
+		"description": "提示框"
+	},
+	"masa alert component text": {
+		"prefix": "malert-text",
+		"body": [
+			"<MAlert",
+			"\tText",
+			"\tType=\"AlertTypes.Success\">",
+			"</MAlert>"
+		],
+		"description": "提示框"
+	},
+	"masa alert component shaped": {
+		"prefix": "malert-shaped",
+		"body": [
+			"<MAlert",
+			"\tShaped",
+			"\tType=\"AlertTypes.Success\">",
+			"</MAlert>"
+		],
+		"description": "提示框"
+	},
+	// Application
+	"masa application": {
+		"prefix": "mapp-templete",
+		"body": [
+			"<!-- MainLayout.razor -->",
+			"@inherits LayoutComponentBase",
+			"",
+			"<MApp>",
+			"\t<MNavigationDrawer App>",
+			"\t\t<!-- -->",
+			"\t</MNavigationDrawer>",
+			"",
+			"\t<MAppBar App>",
+			"\t\t<!-- -->",
+			"\t</MAppBar>",
+			"",
+			"\t<!-- 根据应用组件来调整你的内容 -->",
+			"\t<MMain>",
+			"\t\t<!-- 给应用提供合适的间距 -->",
+			"\t\t<MContainer Fluid>",
+			"\t\t\t@Body",
+			"\t\t</MContainer>",
+			"\t</MMain>",
+			"",
+			"\t<MFooter App>",
+			"\t\t<!-- -->",
+			"\t</MFooter>",
+			"</MApp>"
+		],
+		"description": "application"
+	},
+	"masa aspect ratios component 4/3(masa长宽比组件)": {
+		"prefix": "mresponsive-4/3",
+		"body": ["<MResponsive", "\tAspectRatio=\"4/3\">", "</MResponsive>"],
+		"description": "长宽比"
+	},
+	"masa aspect ratios component 16/9(masa长宽比组件)": {
+		"prefix": "mresponsive-16/9",
+		"body": ["<MResponsive", "\tAspectRatio=\"16/9\">", "</MResponsive>"],
+		"description": "长宽比"
+	},
+	//Avatars
+	"masa avatars component(masa头像组件)": {
+		"prefix": "mavatar",
+		"body": ["<MResponsive", "\tAspectRatio=\"4/3\">", "</MResponsive>"],
+		"description": "长宽比"
 	}
 }
